@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Countries</h1>
+    </header>
+    <button id="buttonAll">
+      <span class="button__text">Display all the countries</span></button
+    ><br /><br />
+    <input type="text" id="inputSearch" />
+    <button id="buttonSearch">
+      <span class="button__text">Search by name</span>
+    </button>
+    <table class="content-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>TLD</th>
+          <th>Capital</th>
+          <th>Currencies</th>
+          <th>Flag</th>
+          <th>Border</th>
+        </tr>
+      </thead>
+      <tbody id="tableCountries"></tbody>
+    </table>
+  </body>
+</html>
